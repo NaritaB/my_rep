@@ -1,0 +1,79 @@
+.room-amenites-containrs {
+  width: 100%;
+}
+.amenites-title {
+  font-family: 'Times New Roman';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 1.15;
+  color: var(--black-color);
+}
+.amenites-text {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.25;
+  
+  color: var(--text-color);
+}
+.amenites-wrap {
+}
+.amenites-list {
+}
+.amenites-subtitle {
+  font-family: 'Times New Roman';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.16;
+
+  color: var(--black-color);
+}
+.amenites-button {
+  box-sizing: border-box;
+  width: 384px;
+  height: 64px;
+  left: 15px;
+  top: 1992px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+
+  color: var(--white-color);
+
+  background: var(--black-color);
+  
+  border: 1px solid;
+  border-color: var(--accent-color);
+  border-radius: 25px;
+}
+.amenites-link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+
+  color: var(--brown-color);
+}
+.amenites-arrow-icon {
+  fill: var(--brown-color);
+}
+
+@media screen and (min-width: 414px) {
+  .room-amenites-containrs {
+    width: 414px;
+  }
+  
+}
+
+@media screen and (min-width: 1024px) {
+  .room-amenites-containrs {
+    width: 1024px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+   .room-amenites-containrs {
+    width: 1280px;
+  }
+}

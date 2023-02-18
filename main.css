@@ -1,0 +1,72 @@
+/* ----------- Partial imports ---------- */
+@import url('./partials/fonts.css');
+@import url('./partials/reset.css');
+@import url('./partials/about-hotel.css');
+@import url('./partials/about-restaurant.css');
+@import url('./partials/contacts.css');
+@import url('./partials/detailsof-hotel.css');
+@import url('./partials/detailsof-restaurant.css');
+@import url('./partials/footer.css');
+@import url('./partials/hotel-hero.css');
+@import url('./partials/hotel-lux-fortwo.css');
+@import url('./partials/hotel-room-forthree.css');
+@import url('./partials/hotel-room-fortwo.css');
+@import url('./partials/main-hero.css');
+@import url('./partials/modal-book-room.css');
+@import url('./partials/modal-book-table.css');
+@import url('./partials/modal-room-price.css');
+@import url('./partials/restaurant-about-kitchen.css');
+@import url('./partials/restaurant-hero.css');
+@import url('./partials/restaurant-menu.css');
+@import url('./partials/room-amenites.css');
+@import url('./partials/room-hero.css');
+
+/* ----------- Global styles ---------- */
+:root {
+  --text-color: #7a7a7a;
+  --background-color: #fffdee;
+  --bg-darklemon-color: #f0ecd6;
+  --accent-color: #f3c653;
+  --white-color: #ffffff;
+  --black-color: #000000;
+  --footer-background: #0e0c07;
+  --title-color: #494848;
+  --pre-title-color: #b4b4b4;
+  --brown-color: #c79002;
+  --grey-color: #bababa;
+  --address-color: #e5e5e5;
+  --pre-footer-color: #828282;
+  --modal-text-color: #808080;
+  --social-icon-color: rgba(243, 198, 83, 0.7);
+  --transit: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+  
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  line-height: 1.25;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+  background-color: var(--background-color);
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
